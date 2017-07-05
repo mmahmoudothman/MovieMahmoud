@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_View="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/card_margin"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    card_View:cardCornerRadius="@dimen/card_movie_radius">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cardImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            card_View:layout_constraintHorizontal_bias="0.0"
+            card_View:layout_constraintLeft_toLeftOf="parent"
+            card_View:layout_constraintRight_toRightOf="parent"
+            card_View:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/cardTitle"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardImage"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:paddingLeft="@dimen/movie_title_padding"
+            android:paddingRight="@dimen/movie_title_padding"
+            android:paddingTop="@dimen/movie_title_padding"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/movie_title"
+            card_View:layout_constraintBottom_toTopOf="@+id/cardRating"
+            card_View:layout_constraintHorizontal_bias="0.0"
+            card_View:layout_constraintLeft_toLeftOf="parent"
+            card_View:layout_constraintRight_toRightOf="parent"
+            android:visibility="gone"
+            />
+        <!--not very important might delete-->
+        <TextView
+            android:id="@+id/cardRating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardTitle"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:paddingBottom="@dimen/user_rating_padding_bottom"
+            android:paddingLeft="@dimen/movie_title_padding"
+            android:paddingRight="@dimen/movie_title_padding"
+            android:paddingTop="@dimen/movie_title_padding"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/user_rating"
+            card_View:layout_constraintBottom_toBottomOf="parent"
+            card_View:layout_constraintHorizontal_bias="0.0"
+            card_View:layout_constraintLeft_toLeftOf="parent"
+            card_View:layout_constraintRight_toRightOf="parent"
+            android:visibility="gone"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
