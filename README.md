@@ -14,7 +14,7 @@ This is the second project in Udacity's Android Developer Nanodegree. The purpos
 App uses The Movie Database API. You have to enter your API key in order to run the app. You can create your own one very easy! (https://www.themoviedb.org/account/signup?language=en-EN). When you get it, just set it here: "popular-movies-app/gradle.properties"
 
 ## License
-Copyright [2017] [MahmoudOsman]
+Copyright [2017] [MahmoudOthman]
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
