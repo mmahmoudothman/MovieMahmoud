@@ -1,4 +1,4 @@
-# Popular Movies App
+## MovieApp
 This is the second project in Udacity's Android Developer Nanodegree. The purpose of this project was to built an app, optimized for tablets, to help users discover popular and highly rated movies on the web. It displays a scrolling grid of movie trailers, launches a details screen whenever a particular movie is selected, allows users to save favorites, play trailers, and read user reviews. This app utilizes core Android user interface components and fetches movie information using themoviedb.org web API.
 
 ## Features:
@@ -11,11 +11,20 @@ This is the second project in Udacity's Android Developer Nanodegree. The purpos
 * UI optimized for phone and tablet
 
 ## Getting Started
+
 App uses The Movie Database API. You have to enter your API key in order to run the app. You can create your own one very easy! (https://www.themoviedb.org/account/signup?language=en-EN). When you get it, just set it here: "popular-movies-app/gradle.properties"
 
-## License
-Copyright [2017] [MahmoudOthman]
+## Libraries Used
 
+* [Picasso](http://square.github.io/picasso/) - A powerful library that handles image loading and caching in the app.
+* [Retrofit](http://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
+* [Butterknife](http://jakewharton.github.io/butterknife/) - Field and method binding for Android views.
+
+
+## License
+	
+	Copyright [2017] [MahmoudOthman]
+	
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
 	You may obtain a copy of the License at
