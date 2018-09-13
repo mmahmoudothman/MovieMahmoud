@@ -23,7 +23,7 @@ App uses The Movie Database API. You have to enter your API key in order to run 
 
 ## License
 	
-	Copyright [2017] [MahmoudOthman]
+	Copyright 2017 MahmoudOthman
 	
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
