@@ -10,6 +10,10 @@ This is the second project in Udacity's Android Developer Nanodegree. The purpos
 * Material design
 * UI optimized for phone and tablet
 
+## Downlaod APK
+
+* [MovieApp](https://play.google.com/store/apps/details?id=com.mahmoud.osman.movieApp).
+
 ## Getting Started
 
 App uses The Movie Database API. You have to enter your API key in order to run the app. You can create your own one very easy! (https://www.themoviedb.org/account/signup?language=en-EN). When you get it, just set it here: "popular-movies-app/gradle.properties"
